@@ -1,0 +1,24 @@
+.category_list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 31px;
+    grid-row-gap: 18px;
+}
+
+.categoryList_items {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px hsla(0, 0%, 0%, 0.03);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 25px;
+    cursor: pointer;
+}
+
+.categoryList_items p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #303030;
+}
